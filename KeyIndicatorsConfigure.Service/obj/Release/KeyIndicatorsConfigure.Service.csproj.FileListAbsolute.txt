@@ -1,0 +1,8 @@
+C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.dll
+C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\SqlServerDataAdapter.dll
+C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
+C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.dll
+C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.pdb

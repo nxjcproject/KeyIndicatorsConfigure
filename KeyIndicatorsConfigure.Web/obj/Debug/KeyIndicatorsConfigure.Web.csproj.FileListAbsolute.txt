@@ -1,0 +1,32 @@
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.csprojResolveAssemblyReference.cache
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Web.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Web.pdb
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\EasyUIJsonParser.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Service.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\WebStyleBaseForEnergy.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\WebUserContorls.Web.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\WebUserControls.Infrastructure.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\WebUserControls.Service.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\SqlServerDataAdapter.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\InternalMemeryRestore.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.pdb
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Web.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Web.pdb
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\EasyUIJsonParser.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Infrastructure.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Service.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\WebStyleBaseForEnergy.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\WebUserContorls.Web.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\WebUserControls.Infrastructure.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\WebUserControls.Service.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\SqlServerDataAdapter.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\InternalMemeryRestore.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Infrastructure.pdb
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Service.pdb
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.csprojResolveAssemblyReference.cache
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.pdb

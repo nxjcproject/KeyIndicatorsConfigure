@@ -1,0 +1,16 @@
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Service.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\SqlServerDataAdapter.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.pdb
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Service.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Service.pdb
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\SqlServerDataAdapter.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.dll
+H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.pdb

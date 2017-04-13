@@ -1,0 +1,4 @@
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
