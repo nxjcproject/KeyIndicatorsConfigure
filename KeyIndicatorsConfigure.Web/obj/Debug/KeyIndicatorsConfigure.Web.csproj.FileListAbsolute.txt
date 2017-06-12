@@ -30,3 +30,14 @@ H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndi
 H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.csprojResolveAssemblyReference.cache
 H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.dll
 H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.pdb
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Web.dll
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Web.pdb
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\SqlServerDataAdapter.dll
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\InternalMemeryRestore.dll
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\bin\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.dll
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Web\obj\Debug\KeyIndicatorsConfigure.Web.pdb

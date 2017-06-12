@@ -14,3 +14,10 @@ H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Deb
 H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
 H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.dll
 H:\徐一帅项目\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Debug\KeyIndicatorsConfigure.Service.pdb

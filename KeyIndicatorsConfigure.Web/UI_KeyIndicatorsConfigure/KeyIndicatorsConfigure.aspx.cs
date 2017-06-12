@@ -23,6 +23,8 @@ namespace KeyIndicatorsConfigure.Web.UI_KeyIndicatorsConfigure
                 AddDataValidIdGroup("ProductionOrganization", m_DataValidIdItems);
 #elif RELEASE
 #endif
+                string m_PageId = Request.QueryString["PageId"] != null ? Request.QueryString["PageId"] : "";
+                Hiddenfield_PageId.Value = m_PageId;
                 this.OrganisationTree_ProductionLine.Organizations = GetDataValidIdGroup("ProductionOrganization");                         //向web用户控件传递数据授权参数
                 this.OrganisationTree_ProductionLine.PageName = "KeyIndicatorsConfigure.aspx";   //向web用户控件传递当前调用的页面名称
                 this.OrganisationTree_ProductionLine.LeveDepth = 7;
