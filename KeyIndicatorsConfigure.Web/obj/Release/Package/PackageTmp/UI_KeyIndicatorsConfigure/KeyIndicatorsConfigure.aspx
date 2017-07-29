@@ -25,7 +25,7 @@
 </head>
 <body>        
     <div id="cc" class="easyui-layout"data-options="fit:true,border:false" >   
-         <div data-options="region:'west'" style="width: 150px;">
+         <div class="easyui-panel" data-options="region:'west',border:false" style="width: 150px;">
             <uc1:OrganisationTree ID="OrganisationTree_ProductionLine" runat="server" />
         </div>
           <div id="toorBar" title="" style="height:30px;padding:10px;">
@@ -41,12 +41,18 @@
                         <td style="width: 100px;">
                             <input id="comb_ProcessType" class="easyui-combobox" style="width: 130px;"data-options="panelHeight:'auto'" />
                         </td> --%> 
-                        <td>
+                      
+                         <td>选择类型:</td>
+                                <td>
+                                    <select id="comb_ProcessType" class="easyui-combobox" style="width: 100px;"data-options=" editable:false,selected: 'true',panelHeight:'auto'"></select>
+                                </td>
+                       
+                         <td>
                             <a id="btn" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'" onclick="Query()">查询</a>
                         </td>
                               <td style="width:40px"></td>
                        <td>
-                            <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true" onclick="addFun()">添加</a>
+                            <a id="id_add" href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-add',plain:true" onclick="addFun()">添加</a>
                         </td>
                          <td>
                             <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-reload',plain:true" onclick="refresh()">刷新</a>
@@ -73,10 +79,18 @@
 	    		    <tr>
 	    			<td>计算类型：</td>
 	    			<td>  
-                        <select class="easyui-combobox" id="valueType" name="delay" style="width:140px" data-options="panelHeight: 'auto'">
+                        <select class="easyui-combobox" id="valueType" name="delay" style="width:140px" data-options="editable:false,panelHeight: 'auto'">
                             <option value="ElectricityConsumption" >电耗</option>
                             <option value="CoalConsumption">煤耗</option>      
                             <option value="DCSTagAvg">DCS标签</option>        
+                        </select></td>
+	    		    </tr>
+                    <tr>
+	    			<td>选择类型：</td>
+	    			<td>  
+                        <select class="easyui-combobox" id="selectType" name="delay" style="width:140px" data-options="editable:false,panelHeight: 'auto'">
+                            <option value="EnergyMonitor" >运行监控</option>
+                            <option value="EnvironmentalMonitor">环境监控</option>        
                         </select></td>
 	    		    </tr>
                      <tr>
@@ -124,9 +138,18 @@
 	    			    <td>是否可用：</td> 
                         <td style="width:8px"></td>
 	    			    <td>  
-                        <select class="easyui-combobox" id="enabled" name="delay" style="width:60px" data-options="panelHeight: 'auto'">
+                        <select class="easyui-combobox" id="enabled" name="delay" style="width:60px" data-options="editable:false,panelHeight: 'auto'">
                             <option value="1">启用</option>
                             <option value="0">停用</option>             
+                        </select></td>
+	    		    </tr>
+                    <tr>
+	    			    <td>短信报警：</td> 
+                        <td style="width:8px"></td>
+	    			    <td>  
+                        <select class="easyui-combobox" id="messageEnabled" name="delay" style="width:60px" data-options="panelHeight: 'auto'">
+                            <option value="1" data-options="selected:'true'">是</option>
+                            <option value="0">否</option>             
                         </select></td>
 	    		    </tr>
 	    	    </table>
@@ -136,6 +159,9 @@
 	            </div>
             </div>
     </div>
+    <form id="form_EnergyConsumptionPlan" runat="server">
+        <asp:HiddenField ID="Hiddenfield_PageId" runat="server"/>
+    </form>
 </body>
 </html>
 

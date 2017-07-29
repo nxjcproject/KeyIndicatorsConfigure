@@ -11,8 +11,51 @@ namespace KeyIndicatorsConfigure.Service.KeyIndicators
 {
     public class KeyIndicatorsConfigureService
     {
-        public static DataTable GetKeyIndicatorsDataTable(string organizationId)
+        public static DataTable GetKeyIndicatorsDataTable(string organizationId, string PageId)
         {
+            string Pageid = "";
+            if (PageId == "EnergyMonitor")
+            {
+                Pageid = "EnergyMonitor";
+            }
+            if (PageId == "EnvironmentalMonitor")
+            {
+                Pageid = "EnvironmentalMonitor";
+            }
+            if (PageId == "All")
+            {
+                string Pageid1 = "EnergyMonitor";
+                string Pageid2 = "EnvironmentalMonitor";
+                string connectionString1 = ConnectionStringFactory.NXJCConnectionString;
+                ISqlServerDataFactory dataFactory1 = new SqlServerDataFactory(connectionString1);
+                string mySql1 = @"SELECT  [ItemId]
+                              ,[ItemName]
+                              ,[Unit]
+                              ,[ValueType]
+                              ,[CaculateType]
+                              ,[PageId]
+                              ,[GroupId]
+                              ,[OrganizationID]
+                              ,[Tags]
+                              ,[SubtrahendTags]
+                              ,[Min]
+                              ,[Max]
+                              ,[AlarmH]
+                              ,[AlarmHH]
+                              ,[DisplayIndex]
+                              ,[Enabled]
+                              ,[MessageEnabled]
+                          FROM [dbo].[realtime_KeyIndicatorsMonitorContrast]
+                          where [OrganizationID]=@organizationId
+                                and [Enabled]=1
+                                and ([PageId]=@Pageid1 or [PageId]=@Pageid2)
+                           order by [DisplayIndex]";
+                SqlParameter[] sqlParameter = {new SqlParameter("@organizationId", organizationId),
+                                               new SqlParameter("@PageId1", Pageid1),
+                                               new SqlParameter("@PageId2", Pageid2)};
+                DataTable table = dataFactory1.Query(mySql1, sqlParameter);
+                return table;
+            }
             string connectionString = ConnectionStringFactory.NXJCConnectionString;
             ISqlServerDataFactory dataFactory = new SqlServerDataFactory(connectionString);
             string mySql = @"SELECT  [ItemId]
@@ -31,15 +74,18 @@ namespace KeyIndicatorsConfigure.Service.KeyIndicators
                               ,[AlarmHH]
                               ,[DisplayIndex]
                               ,[Enabled]
+                              ,[MessageEnabled]
                           FROM [dbo].[realtime_KeyIndicatorsMonitorContrast]
                           where [OrganizationID]=@organizationId
                                 and [Enabled]=1
+                                and [PageId]=@PageId
                            order by [DisplayIndex]";
-            SqlParameter sqlParameter = new SqlParameter("@organizationId", organizationId);
-            DataTable table = dataFactory.Query(mySql, sqlParameter);
-            return table;
+            SqlParameter[] sqlParameterr = {new SqlParameter("@organizationId", organizationId),
+                                           new SqlParameter("@PageId", Pageid)};
+            DataTable table1 = dataFactory.Query(mySql, sqlParameterr);
+            return table1;
         }
-        public static int AddKeyIndicatorsConfigure(string mOrganizationId, string mItemName, string mUnit, string mValueType, string mCaculateType, string mPageId, string mGroupId, string mTags, string mSubtrahendTags, string mMin, string mMax, string mAlarmH, string mAlarmHH, string mDisplayIndex, string mEnabled)
+        public static int AddKeyIndicatorsConfigure(string mOrganizationId, string mItemName, string mUnit, string mValueType, string mCaculateType, string mPageId, string mGroupId, string mTags, string mSubtrahendTags, string mMin, string mMax, string mAlarmH, string mAlarmHH, string mDisplayIndex, string mEnabled, string mMessageEnabled)
         {
             string connectionString = ConnectionStringFactory.NXJCConnectionString;
             ISqlServerDataFactory factory = new SqlServerDataFactory(connectionString);
@@ -59,7 +105,8 @@ namespace KeyIndicatorsConfigure.Service.KeyIndicators
                                     ,[AlarmH]
                                     ,[AlarmHH]
                                     ,[DisplayIndex]
-                                    ,[Enabled])
+                                    ,[Enabled]
+                                    ,[MessageEnabled])
                              VALUES
                                    (@mItemId
                                    ,@mItemName
@@ -76,7 +123,8 @@ namespace KeyIndicatorsConfigure.Service.KeyIndicators
                                    ,@mAlarmH
                                    ,@mAlarmHH
                                    ,@mDisplayIndex
-                                   ,@mEnabled)";
+                                   ,@mEnabled
+                                   ,@mMessageEnabled)";
             SqlParameter[] para = { new SqlParameter("@mItemId",System.Guid.NewGuid().ToString()),
                                     new SqlParameter("@mItemName",mItemName),
                                     new SqlParameter("@mUnit", mUnit),
@@ -92,11 +140,12 @@ namespace KeyIndicatorsConfigure.Service.KeyIndicators
                                     new SqlParameter("@mAlarmH", mAlarmH),
                                     new SqlParameter("@mAlarmHH", mAlarmHH),
                                     new SqlParameter("@mDisplayIndex",  mDisplayIndex),
-                                    new SqlParameter("@mEnabled", mEnabled)};
+                                    new SqlParameter("@mEnabled", mEnabled),
+                                    new SqlParameter("@mMessageEnabled",mMessageEnabled)};
             int dt = factory.ExecuteSQL(mySql, para);
             return dt;
         }
-        public static int EditKeyIndicatorsConfigure(string mItemId, string mOrganizationId, string mItemName, string mUnit, string mValueType, string mCaculateType, string mPageId, string mGroupId, string mTags, string mSubtrahendTags, string mMin, string mMax, string mAlarmH, string mAlarmHH, string mDisplayIndex, string mEnabled)
+        public static int EditKeyIndicatorsConfigure(string mItemId, string mOrganizationId, string mItemName, string mUnit, string mValueType, string mCaculateType, string mPageId, string mGroupId, string mTags, string mSubtrahendTags, string mMin, string mMax, string mAlarmH, string mAlarmHH, string mDisplayIndex, string mEnabled, string mMessageEnabled)
         {
             string connectionString = ConnectionStringFactory.NXJCConnectionString;
             ISqlServerDataFactory factory = new SqlServerDataFactory(connectionString);
@@ -117,6 +166,7 @@ namespace KeyIndicatorsConfigure.Service.KeyIndicators
                             ,[AlarmHH]= @mAlarmHH
                             ,[DisplayIndex]= @mDisplayIndex
                             ,[Enabled]= @mEnabled
+                            ,[MessageEnabled]=@mMessageEnabled
                          WHERE [ItemId] = @mItemId";
             SqlParameter[] para = { new SqlParameter("@mItemId",mItemId),
                                     new SqlParameter("@mItemName",mItemName),
@@ -133,7 +183,8 @@ namespace KeyIndicatorsConfigure.Service.KeyIndicators
                                     new SqlParameter("@mAlarmH", mAlarmH),
                                     new SqlParameter("@mAlarmHH", mAlarmHH),
                                     new SqlParameter("@mDisplayIndex",  mDisplayIndex),
-                                    new SqlParameter("@mEnabled", mEnabled)};
+                                    new SqlParameter("@mEnabled", mEnabled),
+                                    new SqlParameter("@mMessageEnabled",mMessageEnabled)};
             int dt = factory.ExecuteSQL(mySql, para);
             return dt;
         }
@@ -147,6 +198,78 @@ namespace KeyIndicatorsConfigure.Service.KeyIndicators
             SqlParameter para = new SqlParameter("@mItemId", mItemId);
             int dt = factory.ExecuteSQL(mySql, para);
             return dt;     
+        }
+        public static DataTable PageidTypeSelect(string pageItemid)
+        {
+            string connectionString = ConnectionStringFactory.NXJCConnectionString;
+            ISqlServerDataFactory dataFactory = new SqlServerDataFactory(connectionString);
+
+            string mySql = @"select [PAGE_ID] from [IndustryEnergy_SH].[dbo].[content] WHERE [NODE_ID] =@pageItemid";
+            SqlParameter para = new SqlParameter("@pageItemid", pageItemid);
+            DataTable Table = dataFactory.Query(mySql, para);
+            string mPageId = "";
+            if (Table.Rows.Count != 0)
+            {
+                mPageId = Table.Rows[0]["PAGE_ID"].ToString();
+            }
+            DataTable table = new DataTable();
+            if (mPageId == "EnergyMonitor")
+            {
+                string mysql = @"select [PAGE_ID]='EnergyMonitor',[PageIdName]='运行监控'";
+                table = dataFactory.Query(mysql);
+            }
+            if (mPageId == "EnvironmentalMonitor")
+            {
+                string mysql = @"select [PAGE_ID]='EnvironmentalMonitor',[PageIdName]='环境监控'";
+                table = dataFactory.Query(mysql);
+            }
+            if (mPageId == "All")
+            {
+                string mysql = @"select [PAGE_ID]='All',[PageIdName]='全部'
+                                union all
+                                  select [PAGE_ID]='EnergyMonitor',[PageIdName]='运行监控'
+                                union all
+                                 select [PAGE_ID]='EnvironmentalMonitor',[PageIdName]='环境监控'
+                                ";
+                table = dataFactory.Query(mysql);
+            }
+            return table;
+        }
+
+        public static DataTable TypeSelect(string pageItemid)
+        {
+            string connectionString = ConnectionStringFactory.NXJCConnectionString;
+            ISqlServerDataFactory dataFactory = new SqlServerDataFactory(connectionString);
+
+            string mySql = @"select [PAGE_ID] from [IndustryEnergy_SH].[dbo].[content] WHERE [NODE_ID] =@pageItemid";
+            SqlParameter para = new SqlParameter("@pageItemid", pageItemid);
+            DataTable Table = dataFactory.Query(mySql, para);
+            string mPageId = "";
+            if (Table.Rows.Count != 0)
+            {
+                mPageId = Table.Rows[0]["PAGE_ID"].ToString();
+            }
+            DataTable table = new DataTable();
+            if (mPageId == "EnergyMonitor")
+            {
+                string mysql = @"select [PAGE_ID]='EnergyMonitor',[PageIdName]='运行监控'";
+                table = dataFactory.Query(mysql);
+            }
+            if (mPageId == "EnvironmentalMonitor")
+            {
+                string mysql = @"select [PAGE_ID]='EnvironmentalMonitor',[PageIdName]='环境监控'";
+                table = dataFactory.Query(mysql);
+            }
+            if (mPageId == "All")
+            {
+                string mysql = @"
+                                 select [PAGE_ID]='EnergyMonitor',[PageIdName]='运行监控'
+                                union all
+                                 select [PAGE_ID]='EnvironmentalMonitor',[PageIdName]='环境监控'
+                                ";
+                table = dataFactory.Query(mysql);
+            }
+            return table;
         }
     }
 }

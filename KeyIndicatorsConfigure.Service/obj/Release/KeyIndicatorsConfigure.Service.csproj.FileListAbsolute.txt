@@ -6,3 +6,38 @@ C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndi
 C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
 C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.dll
 C:\Users\Xu\Documents\Visual Studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.pdb
+E:\参数\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.dll
+E:\参数\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.pdb
+E:\参数\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.dll
+E:\参数\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.pdb
+E:\参数\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
+E:\参数\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.dll
+E:\参数\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Service.pdb
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\bin\Release\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.dll
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Service\obj\Release\KeyIndicatorsConfigure.Service.pdb

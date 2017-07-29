@@ -2,8 +2,23 @@ C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndi
 C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
 C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.dll
 C:\Users\Xu\Documents\visual studio 2012\Projects\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
-C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.dll
-C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
-C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.dll
-C:\Users\Administrator\Desktop\只放最新程序\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\小徐师兄\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\小徐师兄\task1\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\宁夏建材\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\bin\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.dll
+C:\Users\Administrator\Desktop\KeyIndicatorsConfigure\KeyIndicatorsConfigure.Infrastructure\obj\Debug\KeyIndicatorsConfigure.Infrastructure.pdb
